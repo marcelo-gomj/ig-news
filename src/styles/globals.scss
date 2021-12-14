@@ -1,19 +1,46 @@
-a {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --white: #ffffff;
+
+  --gray-50: #e1e1e6;
+  --gray-300: #a8a8b3;
+  --gray-900: #121214;
+
+  --cyan-500: #61dafb;
+  --yellow-500: #eba417;
+
+}
+
+body{
+  background-color: var(--gray-900);
+  color: var(--white);
+}
+
+body, textarea, input, select, button{
+  font: 400 1rem 'Roboto', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
   color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-  list-style: none;
-  font-family: 'Roboto', sans-serif;
+@media (max-width: 1000px){
+  html{
+    font-size: 93.75%;
+  }
 }
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-
+@media (max-width: 728px){
+  html{
+    font-size: 87.5rem;
+  }
 }
-
-
