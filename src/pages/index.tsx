@@ -4,7 +4,7 @@ export default function Home() {
    return (
       <>
          <Head>
-            <title>Inicion | Ig News</title>
+            <title>Inicio | Ig News</title>
          </Head>
       </>
    )
